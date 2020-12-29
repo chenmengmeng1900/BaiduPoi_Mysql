@@ -42,7 +42,7 @@ class SolveLog(object):
         except Exception as e:
             logging.error('Solve_error:%s' % e)
 
-    def(self, data):
+    def  a (self, data):
         create_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         raw = data['result']
         if raw:
